@@ -5,11 +5,17 @@
     firstname: "Александр",
     lastname: "Исаенков",
     email: "isaenkovcc@gmail.com",
-    phone: "+79315784102",
     github: "PlayingPeano",
     gitlab: "PlayingPeano",
     address: "Санкт-Петербург, Россия",
-    positions: ("Инженер-программист C++",),
+    positions: (),
+    custom: (
+      (
+        text: "@gugukukua",
+        icon: "telegram",
+        link: "https://t.me/gugukukua",
+      ),
+    ),
   ),
   profile-picture: none,
   font: "Source Sans Pro",
@@ -26,9 +32,19 @@
 = Проекты
 
 #resume-entry(
+  title: "GPGPU: сложение матриц и coalesced memory access",
+  location: link("https://github.com/PlayingPeano/GPGPUTasks2025")[GitHub],
+  description: "C++, CUDA/OpenCL, GPU",
+)
+
+#resume-item[
+  Курс «Вычисления на видеокартах» (CS Space).
+]
+
+#resume-entry(
   title: "isa-cache — симулятор RISC-V с кэшем",
   location: link("https://github.com/PlayingPeano/isa-cache")[GitHub],
-  description: "C++, алгоритмы, LRU, pLRU, RISC-V",
+  description: "C++, LRU, pLRU, RISC-V",
 )
 
 #resume-item[
@@ -83,34 +99,15 @@
 = Навыки
 
 #resume-skill-item(
-  "Основное",
-  (
-    "C++17/20",
-    "STL",
-    "ООП",
-    "RAII",
-    "модель памяти C++",
-    "алгоритмы и структуры данных",
-  ),
-)
-#resume-skill-item(
-  "Разработка",
-  ("SOLID", "unit-тестирование", "code review", "техническая документация"),
+  "Языки",
+  ("C++17/20", "C", "Python"),
 )
 #resume-skill-item(
   "Инструменты",
-  ("Git", "CMake", "Make", "Linux", "Valgrind", "sanitizers"),
+  ("Linux", "Git", "Docker", "Make", "CMake", "Google Test"),
 )
 #resume-skill-item(
-  "Системное",
-  ("C", "POSIX", "IPC", "многопоточность"),
-)
-#resume-skill-item(
-  "Дополнительно",
-  ("PostgreSQL", "Docker", "Perl"),
-)
-#resume-skill-item(
-  "Языки",
+  "Разговорные",
   ("Русский (родной)", "Английский (B2)"),
 )
 
