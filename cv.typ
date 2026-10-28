@@ -32,7 +32,7 @@
 = Проекты
 
 #resume-entry(
-  title: "GPGPU: сложение матриц и coalesced memory access",
+  title: "GPGPU",
   location: link("https://github.com/PlayingPeano/GPGPUTasks2025")[GitHub],
   description: "C++, CUDA/OpenCL, GPU",
 )
