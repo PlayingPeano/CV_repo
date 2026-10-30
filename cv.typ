@@ -6,7 +6,6 @@
     lastname: "Исаенков",
     email: "isaenkovcc@gmail.com",
     github: "PlayingPeano",
-    gitlab: "PlayingPeano",
     address: "Санкт-Петербург, Россия",
     positions: (),
     custom: (
@@ -47,8 +46,7 @@
 
 #resume-item[
   Линейная и логистическая регрессия, регуляризация, оценка качества
-  моделей, доверительные интервалы, обобщённые линейные модели и деревья
-  решений. Выполняю практические задания на Python с использованием NumPy,
+  моделей, доверительные интервалы. Выполняю практические задания на Python с использованием NumPy,
   pandas, SciPy и scikit-learn.
 ]
 
@@ -57,7 +55,7 @@
 #resume-entry(
   title: "Content-based line ID",
   location: link("https://gitlab.com/mugenbudo-students/cb-line-id/-/tree/collision_stats?ref_type=heads")[GitLab],
-  description: "C++, PostgreSQL, Perl, анализ данных",
+  description: "C++, PostgreSQL, Perl",
 )
 
 #resume-item[
